@@ -1,0 +1,12 @@
+# Ignore compiled files
+*.class
+
+# Ignore Eclipse project files
+.project
+.settings/
+
+# Ignore log files
+*.log
+
+# Ignore dependency directories
+/target/
