@@ -31,3 +31,10 @@ Thumbs.db
 
 # Ignore IDE workspace settings
 /.metadata/
+
+###
+.settings/
+bin/
+*.class
+.classpath
+.project
