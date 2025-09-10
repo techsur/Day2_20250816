@@ -1,12 +1,33 @@
-# Ignore compiled files
+# Ignore Maven target directories
+/target/
+
+# Ignore Eclipse/STS specific files
+/.classpath
+/.project
+/.settings/
+*.launch
+*.log
+*.tmp
+*.bak
+
+# Ignore build and dependency directories
+/.mvn/
+/.idea/
+/.vscode/
+*.iml
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore generated files
+*.war
+*.jar
+*.ear
+*.zip
+
+# Java compiled class files
 *.class
 
-# Ignore Eclipse project files
-.project
-.settings/
-
-# Ignore log files
-*.log
-
-# Ignore dependency directories
-/target/
+# Ignore IDE workspace settings
+/.metadata/
